@@ -4,11 +4,31 @@ Comprehensive collection of Machine Learning algorithms, clustering techniques, 
 
 ---
 
-## Repository Overview
+## Purpose of This Repository
 
-This repository contains implementations of core Machine Learning concepts organized into structured categories including supervised learning, unsupervised learning, dimensionality reduction, and optimization/statistical methods.
+This repository was created to strengthen my understanding of core Machine Learning concepts through hands-on implementation, experimentation, visualization, and evaluation.
 
-The goal of this repository is to build strong ML foundations through practical implementations and visualizations.
+The project is organized into structured categories covering supervised learning, unsupervised learning, dimensionality reduction, optimization, and statistical analysis.
+
+---
+
+# Sample Outputs
+
+## K-Means Clustering
+
+![KMeans](unsupervised-learning/08-kmeans-clustering/output.png)
+
+---
+
+## DBSCAN Clustering
+
+![DBSCAN](unsupervised-learning/09-dbscan/output.png)
+
+---
+
+## Confusion Matrix Visualization
+
+![Confusion Matrix](optimization-and-math/15-confusion-matrix/output.png)
 
 ---
 
@@ -63,6 +83,15 @@ machine-learning-foundations/
 
 ---
 
+# Quick Navigation
+
+- [Supervised Learning](supervised-learning)
+- [Unsupervised Learning](unsupervised-learning)
+- [Dimensionality Reduction](dimensionality-reduction)
+- [Optimization and Statistics](optimization-and-math)
+
+---
+
 # Technologies Used
 
 - Python
@@ -74,53 +103,44 @@ machine-learning-foundations/
 
 ---
 
-# Features
+# Key Highlights
 
+- 16 Machine Learning experiments
 - Structured folder organization
+- Visualization-based outputs
 - Experiment-wise documentation
-- Visualization outputs
-- Evaluation metrics
-- Beginner-friendly implementations
-- Consistent project structure
-
----
-
-# Sample Outputs
-
-## Decision Tree Visualization
-
-![Decision Tree](supervised-learning/03-decision-trees/output.png)
-
----
-
-## K-Means Clustering
-
-![KMeans](unsupervised-learning/08-kmeans-clustering/output.png)
-
----
-
-## PCA Visualization
-
-![PCA](dimensionality-reduction/11-pca/output.png)
+- Supervised and unsupervised learning implementations
+- Dimensionality reduction techniques
+- Statistical analysis and optimization methods
 
 ---
 
 # What I Learned
 
-- Supervised and unsupervised learning workflows
-- Model evaluation techniques
+- Machine Learning workflows
+- Data preprocessing techniques
+- Model evaluation methods
 - Clustering algorithms
-- Dimensionality reduction methods
-- Optimization concepts
-- Statistical analysis fundamentals
+- Dimensionality reduction concepts
+- Optimization and statistical analysis
+- Visualization and documentation practices
 
 ---
 
-# How to Run
+# Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# Running Experiments
 
 Example:
 
 ```bash
+cd supervised-learning/01-linear-regression
 python main1.py
 ```
 
