@@ -1,5 +1,9 @@
 # Machine Learning Foundations
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
+![Status](https://img.shields.io/badge/Status-Complete-success)
+
 Comprehensive collection of Machine Learning algorithms, clustering techniques, dimensionality reduction methods, and statistical concepts implemented using Python and Scikit-learn.
 
 ---
@@ -12,29 +16,25 @@ The project is organized into structured categories covering supervised learning
 
 ---
 
-# Sample Outputs
+## Sample Outputs
 
-## K-Means Clustering
+### K-Means Clustering
 
-![KMeans](unsupervised-learning/08-kmeans-clustering/output.png)
+<img src="unsupervised-learning/08-kmeans-clustering/output.png" width="700">
 
----
+### DBSCAN Clustering
 
-## DBSCAN Clustering
+<img src="unsupervised-learning/09-dbscan/output.png" width="700">
 
-![DBSCAN](unsupervised-learning/09-dbscan/output.png)
+### Confusion Matrix Visualization
 
----
-
-## Confusion Matrix Visualization
-
-![Confusion Matrix](optimization-and-math/15-confusion-matrix/output.png)
+<img src="optimization-and-math/15-confusion-matrix/output.png" width="700">
 
 ---
 
-# Topics Covered
+## Topics Covered
 
-## Supervised Learning
+### Supervised Learning
 - Linear Regression
 - Logistic Regression
 - Decision Trees
@@ -43,30 +43,24 @@ The project is organized into structured categories covering supervised learning
 - Gradient Boosting
 - Ensemble Learning
 
----
-
-## Unsupervised Learning
+### Unsupervised Learning
 - K-Means Clustering
 - DBSCAN
 - Hierarchical Clustering
 
----
-
-## Dimensionality Reduction
+### Dimensionality Reduction
 - PCA (Principal Component Analysis)
 - LDA (Linear Discriminant Analysis)
 - SVD (Singular Value Decomposition)
 
----
-
-## Optimization & Statistics
+### Optimization & Statistics
 - Gradient Descent
 - Confusion Matrix
 - Hypothesis Testing
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 machine-learning-foundations/
@@ -78,12 +72,13 @@ machine-learning-foundations/
 │
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── LICENSE
 ```
 
 ---
 
-# Quick Navigation
+## Quick Navigation
 
 - [Supervised Learning](supervised-learning)
 - [Unsupervised Learning](unsupervised-learning)
@@ -92,7 +87,7 @@ machine-learning-foundations/
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Python
 - NumPy
@@ -103,10 +98,10 @@ machine-learning-foundations/
 
 ---
 
-# Key Highlights
+## Key Highlights
 
 - 16 Machine Learning experiments
-- Structured folder organization
+- Structured and modular repository organization
 - Visualization-based outputs
 - Experiment-wise documentation
 - Supervised and unsupervised learning implementations
@@ -115,7 +110,7 @@ machine-learning-foundations/
 
 ---
 
-# What I Learned
+## What I Learned
 
 - Machine Learning workflows
 - Data preprocessing techniques
@@ -127,7 +122,7 @@ machine-learning-foundations/
 
 ---
 
-# Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
@@ -135,7 +130,7 @@ pip install -r requirements.txt
 
 ---
 
-# Running Experiments
+## Running Experiments
 
 Example:
 
@@ -146,6 +141,15 @@ python main1.py
 
 ---
 
-# Author
+## Future Improvements
+
+- Add real-world datasets for additional experiments
+- Improve visualization quality and styling
+- Include advanced machine learning projects
+- Add model comparison studies and performance analysis
+
+---
+
+## Author
 
 Rudraksh Mehta
