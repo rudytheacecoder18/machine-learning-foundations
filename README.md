@@ -1,20 +1,20 @@
 # Machine Learning Foundations
 
-A comprehensive collection of Machine Learning algorithms and data science concepts implemented using Python and Scikit-learn.
+Comprehensive collection of Machine Learning algorithms, clustering techniques, dimensionality reduction methods, and statistical concepts implemented using Python and Scikit-learn.
 
 ---
 
-## Repository Structure
+## Repository Overview
 
-```text
-machine-learning-foundations
-```
+This repository contains implementations of core Machine Learning concepts organized into structured categories including supervised learning, unsupervised learning, dimensionality reduction, and optimization/statistical methods.
+
+The goal of this repository is to build strong ML foundations through practical implementations and visualizations.
 
 ---
 
-## Topics Covered
+# Topics Covered
 
-### Supervised Learning
+## Supervised Learning
 - Linear Regression
 - Logistic Regression
 - Decision Trees
@@ -23,24 +23,47 @@ machine-learning-foundations
 - Gradient Boosting
 - Ensemble Learning
 
-### Unsupervised Learning
+---
+
+## Unsupervised Learning
 - K-Means Clustering
 - DBSCAN
 - Hierarchical Clustering
 
-### Dimensionality Reduction
+---
+
+## Dimensionality Reduction
 - PCA (Principal Component Analysis)
 - LDA (Linear Discriminant Analysis)
 - SVD (Singular Value Decomposition)
 
-### Optimization & Statistics
+---
+
+## Optimization & Statistics
 - Gradient Descent
 - Confusion Matrix
 - Hypothesis Testing
 
 ---
 
-## Technologies Used
+# Repository Structure
+
+```text
+machine-learning-foundations/
+│
+├── supervised-learning/
+├── unsupervised-learning/
+├── dimensionality-reduction/
+├── optimization-and-math/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+# Technologies Used
 
 - Python
 - NumPy
@@ -51,29 +74,49 @@ machine-learning-foundations
 
 ---
 
-## Features
+# Features
 
-- Clean and modular code structure
-- Visualization outputs
+- Structured folder organization
 - Experiment-wise documentation
+- Visualization outputs
 - Evaluation metrics
-- Supervised and unsupervised learning
-- Dimensionality reduction techniques
+- Beginner-friendly implementations
+- Consistent project structure
 
 ---
 
-## Folder Structure
+# Sample Outputs
 
-```text
-supervised-learning/
-unsupervised-learning/
-dimensionality-reduction/
-optimization-and-math/
-```
+## Decision Tree Visualization
+
+![Decision Tree](supervised-learning/03-decision-trees/output.png)
 
 ---
 
-## How to Run
+## K-Means Clustering
+
+![KMeans](unsupervised-learning/08-kmeans-clustering/output.png)
+
+---
+
+## PCA Visualization
+
+![PCA](dimensionality-reduction/11-pca/output.png)
+
+---
+
+# What I Learned
+
+- Supervised and unsupervised learning workflows
+- Model evaluation techniques
+- Clustering algorithms
+- Dimensionality reduction methods
+- Optimization concepts
+- Statistical analysis fundamentals
+
+---
+
+# How to Run
 
 Example:
 
@@ -83,6 +126,6 @@ python main1.py
 
 ---
 
-## Author
+# Author
 
 Rudraksh Mehta
