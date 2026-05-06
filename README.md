@@ -6,35 +6,31 @@
 
 Comprehensive collection of Machine Learning algorithms, clustering techniques, dimensionality reduction methods, and statistical concepts implemented using Python and Scikit-learn.
 
----
-
 ## Purpose of This Repository
 
 This repository was created to strengthen my understanding of core Machine Learning concepts through hands-on implementation, experimentation, visualization, and evaluation.
 
 The project is organized into structured categories covering supervised learning, unsupervised learning, dimensionality reduction, optimization, and statistical analysis.
 
----
-
 ## Sample Outputs
 
 ### K-Means Clustering
 
-<img src="unsupervised-learning/08-kmeans-clustering/output.png" width="700">
+<img src="unsupervised-learning/08-kmeans-clustering/output.png" width="650">
 
 ### DBSCAN Clustering
 
-<img src="unsupervised-learning/09-dbscan/output.png" width="700">
+<img src="unsupervised-learning/09-dbscan/output.png" width="650">
 
 ### Confusion Matrix Visualization
 
-<img src="optimization-and-math/15-confusion-matrix/output.png" width="700">
+<img src="optimization-and-math/15-confusion-matrix/output.png" width="650">
 
 ---
 
-## Topics Covered
+# Topics Covered
 
-### Supervised Learning
+## Supervised Learning
 - Linear Regression
 - Logistic Regression
 - Decision Trees
@@ -43,24 +39,24 @@ The project is organized into structured categories covering supervised learning
 - Gradient Boosting
 - Ensemble Learning
 
-### Unsupervised Learning
+## Unsupervised Learning
 - K-Means Clustering
 - DBSCAN
 - Hierarchical Clustering
 
-### Dimensionality Reduction
+## Dimensionality Reduction
 - PCA (Principal Component Analysis)
 - LDA (Linear Discriminant Analysis)
 - SVD (Singular Value Decomposition)
 
-### Optimization & Statistics
+## Optimization & Statistics
 - Gradient Descent
 - Confusion Matrix
 - Hypothesis Testing
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 machine-learning-foundations/
@@ -78,7 +74,7 @@ machine-learning-foundations/
 
 ---
 
-## Quick Navigation
+# Quick Navigation
 
 - [Supervised Learning](supervised-learning)
 - [Unsupervised Learning](unsupervised-learning)
@@ -87,7 +83,7 @@ machine-learning-foundations/
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Python
 - NumPy
@@ -98,7 +94,7 @@ machine-learning-foundations/
 
 ---
 
-## Key Highlights
+# Key Highlights
 
 - 16 Machine Learning experiments
 - Structured and modular repository organization
@@ -110,7 +106,13 @@ machine-learning-foundations/
 
 ---
 
-## What I Learned
+# Learning Progression
+
+The repository progresses from foundational supervised learning algorithms to clustering techniques, dimensionality reduction, optimization methods, and statistical analysis concepts.
+
+---
+
+# What I Learned
 
 - Machine Learning workflows
 - Data preprocessing techniques
@@ -122,15 +124,13 @@ machine-learning-foundations/
 
 ---
 
-## Installation
+# Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Running Experiments
+# Running Experiments
 
 Example:
 
@@ -141,15 +141,22 @@ python main1.py
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-- Add real-world datasets for additional experiments
-- Improve visualization quality and styling
+- Add more real-world datasets
+- Improve visualization styling and comparisons
 - Include advanced machine learning projects
 - Add model comparison studies and performance analysis
+- Explore deployment and interactive interfaces
 
 ---
 
-## Author
+# Note
+
+This repository focuses on foundational Machine Learning concepts and implementations intended for learning, experimentation, and portfolio development purposes.
+
+---
+
+# Author
 
 Rudraksh Mehta
